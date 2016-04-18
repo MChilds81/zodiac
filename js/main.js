@@ -28,9 +28,14 @@ function horoscope() {
 	console.log(signMatch)
 
 	if (!signMatch) {
-		document.getElementById("output").textContent = 
+		var signList = ""
+		for (i = 0; i < signArray.length; i++) {
+			signList = signList + (i+1) + ". " + signArray[i] + "<br>"
+		}
+		document.getElementById("output").innerHTML = 
 		"Are you sure you spelled that correctly? " + 
-		"Please fix and click button again."
+		"Please type one of the following and try again:<br><br>"
+		 + signList		
 	}
 	else {
 		//switch takes in the userSign and does something
