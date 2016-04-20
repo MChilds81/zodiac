@@ -1,4 +1,4 @@
-#sign {
+#sign, #month, #day, #year {
 	width: 25%;
 	display: block;
 }
