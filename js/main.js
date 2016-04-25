@@ -1,16 +1,16 @@
 //Array of zodiac sign objects
-var signArray = [{name:"CAPRICORN",upperMonth: 1,upperDay: 19,horoscope:"So Cool"},
-				 {name:"AQUARIUS",upperMonth: 2,upperDay: 18,horoscope:"So Cool"},
-				 {name:"PISCES",upperMonth: 3,upperDay: 20,horoscope:"So Cool"},
-				 {name:"ARIES",upperMonth: 4,upperDay: 19,horoscope:"So Cool"},
-				 {name:"TAURUS",upperMonth: 5,upperDay: 20,horoscope:"So Cool"},
-				 {name:"GEMINI",upperMonth: 6,upperDay: 20,horoscope:"So Cool"},
-				 {name:"CANCER",upperMonth: 7,upperDay: 22,horoscope:"So Cool"},
-				 {name:"LEO",upperMonth: 8,upperDay: 22,horoscope:"So Cool"},
-                 {name:"VIRGO",upperMonth: 9,upperDay: 22,horoscope:"So Cool"},
-                 {name:"LIBRA",upperMonth: 10,upperDay: 22,horoscope:"So Cool"},
-                 {name:"SCORPIO",upperMonth: 11,upperDay: 21,horoscope:"So Cool"},
-                 {name:"SAGITTARIUS",upperMonth: 12,upperDay: 21,horoscope:"So Cool"},]
+var signArray = [{name:"CAPRICORN",upperMonth: 1,upperDay: 19,horoscope:"Just don't even leave the house!"},
+				 {name:"AQUARIUS",upperMonth: 2,upperDay: 18,horoscope:"You're a freaking gossip!"},
+				 {name:"PISCES",upperMonth: 3,upperDay: 20,horoscope:"You're paranoid!"},
+				 {name:"ARIES",upperMonth: 4,upperDay: 19,horoscope:"You work too hard!"},
+				 {name:"TAURUS",upperMonth: 5,upperDay: 20,horoscope:"You're too sexually promiscuous!"},
+				 {name:"GEMINI",upperMonth: 6,upperDay: 20,horoscope:"You're too messy!"},
+				 {name:"CANCER",upperMonth: 7,upperDay: 22,horoscope:"You stay too busy!"},
+				 {name:"LEO",upperMonth: 8,upperDay: 22,horoscope:"You are a perfect MOFO!"},
+                 {name:"VIRGO",upperMonth: 9,upperDay: 22,horoscope:"You don't get along with people!"},
+                 {name:"LIBRA",upperMonth: 10,upperDay: 22,horoscope:"You're mean to people!"},
+                 {name:"SCORPIO",upperMonth: 11,upperDay: 21,horoscope:"You're broke!"},
+                 {name:"SAGITTARIUS",upperMonth: 12,upperDay: 21,horoscope:"You're careless!"},]
 
 //function called on click of first button for zodiac sign entry
 function horoscope() {
