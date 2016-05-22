@@ -1,16 +1,26 @@
+function horoscopeObject(name, upperMonth, upperDay, horoscope) {
+	this.name = name;
+	this.upperMonth = upperMonth;
+	this.upperDay = upperDay;
+	this.horoscope = horoscope;
+}
+
+var capricorn = new horoscopeObject("CAPRICORN",1,19,"Just don't even leave the house!");
+var aquarius = new horoscopeObject("AQUARIUS",2,18,"You're a freaking gossip!");
+var pisces = new horoscopeObject("PISCES",3,20,"You're paranoid!");
+var aries = new horoscopeObject("ARIES",4,19,"You work too hard!");
+var taurus = new horoscopeObject("TAURUS",5,20,"You're too sexually promiscuous!");
+var gemini = new horoscopeObject("GEMINI",6,20,"You're too messy!");
+var cancer = new horoscopeObject("CANCER",7,22,"You stay too busy!");
+var leo = new horoscopeObject("LEO",8,22,"You are a perfect MOFO!");
+var virgo = new horoscopeObject("VIRGO",9,22,"You don't get along with people!");
+var libra = new horoscopeObject("LIBRA",10,22,"You're mean to people!");
+var scorpio = new horoscopeObject("SCORPIO",11,21,"You're broke!");
+var sagittarius = new horoscopeObject("SAGITTARIUS",12,21,"You're careless!");
+
 //Array of zodiac sign objects
-var signArray = [{name:"CAPRICORN",upperMonth: 1,upperDay: 19,horoscope:"Just don't even leave the house!"},
-				 {name:"AQUARIUS",upperMonth: 2,upperDay: 18,horoscope:"You're a freaking gossip!"},
-				 {name:"PISCES",upperMonth: 3,upperDay: 20,horoscope:"You're paranoid!"},
-				 {name:"ARIES",upperMonth: 4,upperDay: 19,horoscope:"You work too hard!"},
-				 {name:"TAURUS",upperMonth: 5,upperDay: 20,horoscope:"You're too sexually promiscuous!"},
-				 {name:"GEMINI",upperMonth: 6,upperDay: 20,horoscope:"You're too messy!"},
-				 {name:"CANCER",upperMonth: 7,upperDay: 22,horoscope:"You stay too busy!"},
-				 {name:"LEO",upperMonth: 8,upperDay: 22,horoscope:"You are a perfect MOFO!"},
-                 {name:"VIRGO",upperMonth: 9,upperDay: 22,horoscope:"You don't get along with people!"},
-                 {name:"LIBRA",upperMonth: 10,upperDay: 22,horoscope:"You're mean to people!"},
-                 {name:"SCORPIO",upperMonth: 11,upperDay: 21,horoscope:"You're broke!"},
-                 {name:"SAGITTARIUS",upperMonth: 12,upperDay: 21,horoscope:"You're careless!"},]
+var signArray = [capricorn, aquarius, pisces, aries, taurus, gemini,
+				 cancer, leo, virgo, libra, scorpio, sagittarius]
 
 //function called on click of first button for zodiac sign entry
 function horoscope() {
